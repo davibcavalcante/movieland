@@ -1,0 +1,11 @@
+const key = 'df8ca2be'
+const type= 'movie'
+const nameSearch = 'The fast and The Furious'
+
+async function conectAPI() {
+    const request = await fetch (`http://www.omdbapi.com/?apikey=${key}&t=${nameSearch}`)
+    const convertRequest = await request.json()
+    console.log(convertRequest)
+}
+
+conectAPI()

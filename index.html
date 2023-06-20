@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/mobile-all.css">
+    <link rel="stylesheet" href="style/large-screen.css" media="all and (min-width: 992px)">
+    <title>MovieLand</title>
+</head>
+<body>
+    <header>
+        <h1>MovieLand</h1>
+    </header>
+    <section class="container-form">
+        <form id="form" autocomplete="off">
+            <section class="form-control">
+                <div class="control-input">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Enter the name">
+                </div>
+
+                <div class="control-sel">
+                    <label for="type">Type:</label>
+                    <select id="type">
+                        <option value="movie">Movie</option>
+                        <option value="serie">Serie</option>
+                        <option value="episode">Episode</option>
+                    </select>
+                </div>
+            </section>
+            <button type="submit" id="search-btn">Search</button>
+        </form>
+    </section>
+
+    <section class="container-description hide">
+        <section class="flex-information">
+            <div class="poster" id="poster">
+                
+            </div>
+            <div class="information" id="information">
+                <div class="container-director">
+                    <h1>Director:</h1>
+                    <p class="director">Example</p>
+                </div>
+                <div class="container-writer">
+                    <h1>Writer:</h1>
+                    <p class="writer">Example</p>
+                </div>
+                <div class="container-actors">
+                    <h1>Actors:</h1>
+                    <p class="actors">Example</p>
+                </div>
+                <div class="container-title">
+                    <h1>Original Title:</h1>
+                    <p class="title">Example</p>
+                </div>
+            </div>
+        </section>
+        <div class="plot">
+            <h1>Plot</h1>
+            <p class="plot-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit adipisci iure nostrum, ipsam rerum repellat aliquid, totam voluptates animi culpa aut reiciendis dolores veritatis voluptatibus excepturi autem, eos debitis tempore!
+            </p>
+        </div>
+        <section class="container-navigation" id="container-navigation">
+            <button id="trailer-btn">See the trailer</button>
+            <button id="home-btn">Home</button>
+        </section>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

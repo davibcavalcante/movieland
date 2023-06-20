@@ -1,0 +1,98 @@
+/* ALL SETTINGS */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --title-font: 'Anton';
+    --main-font: 'Roboto';
+    --orange: #FF6600;
+    --yellow: #FFD940;
+    --white: #F2F2F2;
+    --black: #0D0D0D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hide { display: none; }
+
+.erro {
+    width: 500px;
+    padding: 5px 0;
+    border-radius: 50px;
+    font-size: 2em;
+}
+
+body {
+    background-image: url(../imagens/725.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* CONTAINER-FORM SETTINGS */
+
+.container-form {
+    width: 600px;
+}
+
+.control-input {
+    width: 52%;
+}
+
+.control-sel {
+    width: 40%;
+}
+
+.control-sel select {
+    width: 100%;
+}
+
+/* CONTAINER-RESULTS SETTINGS */
+
+.container-description {
+    width: 600px;
+}
+
+.flex-information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.poster {
+    margin: 0;
+}
+
+.information div {
+    margin: 0 0 17px 0;
+    width: 250px;
+    height: 100px;
+}
+
+.information div > h1 {
+    font-size: 1.3em;
+}
+
+.information div > p {
+    font-size: 1.2em;
+}
+
+.container-navigation {
+    display: flex;
+}
+
+.container-navigation button {
+    width: 40%;
+}
+
+#trailer-btn:hover {
+    color: var(--yellow);
+    background-color: var(--black);
+}
+
+#home-btn:hover {
+    color: var(--black);
+    background-color: var(--yellow);
+}
